@@ -13,7 +13,7 @@ class pruebaTest extends PHPUnit_Framework_TestCase
 	}
 
 	public function tearDown(){
-		$this->calc null;
+		$this->calc = null;
 	}
 
 	public function testInstanceOf(){
