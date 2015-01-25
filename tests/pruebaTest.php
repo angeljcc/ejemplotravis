@@ -1,6 +1,6 @@
 <?php
 
-
+use \src\prueba as prueba;
 /**
 * 
 */
@@ -9,7 +9,7 @@ class pruebaTest extends PHPUnit_Framework_TestCase
 	private $calc=null;
 
 	public function setUp(){
-		$this->calc = new ejemplotravis\prueba();
+		$this->calc = new prueba;
 	}
 
 	public function tearDown(){
@@ -17,7 +17,7 @@ class pruebaTest extends PHPUnit_Framework_TestCase
 	}
 
 	public function testInstanceOf(){
-		$this->assertInstanceOf('ejemplotravis\prueba',$this->calc);
+		$this->assertInstanceOf('prueba',$this->calc);
 	}
 
 	public function testInvalidArgumentisProperlyThrown(){

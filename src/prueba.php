@@ -1,7 +1,8 @@
-<?php namespace ejemplotravis;
+<?php 
+
+	namespace src;
 	
 
-	require_once 'vendor/autoload.php';
 	/**
 	* 
 	*/
@@ -10,7 +11,7 @@
 		
 		function __construct(argument)
 		{
-			# code...
+			
 		}
 
 		public function add($x,$y){
