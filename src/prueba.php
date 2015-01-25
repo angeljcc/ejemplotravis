@@ -1,20 +1,16 @@
 <?php 
 
-	namespace src;
-	
+	namespace src;	
 
 	/**
 	* 
 	*/
 	class prueba
 	{
-		
-		function __construct(argument)
-		{
-			
-		}
 
 		public function add($x,$y){
 			return $x + $y;
 		}
 	}
+
+?>
