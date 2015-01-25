@@ -1,6 +1,6 @@
 <?php
 
-require_once('../src/ejemplotravis/prueba.php');
+
 /**
 * 
 */
@@ -9,7 +9,7 @@ class pruebaTest extends PHPUnit_Framework_TestCase
 	private $calc=null;
 
 	public function setUp(){
-		$this->calc = new ejemplotravis\prueba;
+		$this->calc = new ejemplotravis\prueba();
 	}
 
 	public function tearDown(){
